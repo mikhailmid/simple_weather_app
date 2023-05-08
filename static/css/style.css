@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Varela Round', sans-serif;
+}
+
+header {
+	background-color: #24c0ff;
+	border-radius: 0 0 16px 16px;
+	position: relative;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.logo>img {
+	height: 50px;
+	width: 50px;
+}
+
+.logo>p {
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+
+.content {
+	height: calc(100vh - 70px + 16px);
+	width: 100%;
+	margin-top: -16px;
+	background-color: #c1e8ff;
+}
+
+.search-box {
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.bar {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	background-color: white;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+
+.bar > * {
+	margin-left: 16px;
+}
+
+.bar>img {
+	height: 15px;
+	width: 15px;
+}
+
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #acacac;
+	transition-duration: 250ms;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #acacac;
+  outline:none;
+}
+
+.search-txt {
+	height:45px;
+  border:none;
+  width: calc(100% - 64px);
+  font-size:16px;
+  outline: none;
+	
+}
+
+.weather {
+	display: flex;
+	justify-content: center;
+	justify-self: center;
+	margin-top: 50px;
+}
+
+.weather-box {
+	-webkit-box-shadow: -5px -2px 15px 6px rgba(71,71,71,0.55); 
+	box-shadow: -5px -2px 15px 6px rgba(71,71,71,0.55);
+	height: 300px;
+	width: 650px;
+	background-color: white;
+	border-radius: 16px;
+}
+
+.top {
+	margin-top: 16px;
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.top>img {
+	width: 80px;
+}
+
+.top>p {
+	margin-left: inherit;
+	font-size: 36px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 16px;
+	padding: 0 16px 0 16px;
+}
+
+.weather-block {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	justify-content: center;
+	text-align: center;
+	border: 4px solid #000000;
+	border-radius: 16px;
+	padding: 12px 6px 12px 6px ;
+	font-size: 16px;
+	width: 100px;
+	height: 160px;
+}
+
+.weather-block>img {
+	position: relative;
+	margin: auto;
+	width: 80px;
+}
+
